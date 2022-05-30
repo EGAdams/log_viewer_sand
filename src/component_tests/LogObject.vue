@@ -3,13 +3,13 @@
     <li>
         <div class="log-object-container">
             <div>
-                {{ log_object.method }}
+                {{ log_object?.method }}
             </div>
             <div>
-                {{ log_object.id }}
+                {{ log_object?.id }}
             </div>
             <div>
-                {{ log_object.message }}
+                {{ log_object?.message }}
             </div>
         </div>
     </li>

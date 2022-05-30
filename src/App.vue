@@ -1,7 +1,7 @@
 
 
 <template>
-    <div id="app">
+    <div id="log_app">
     <log-viewer-test-vue></log-viewer-test-vue>
     </div>
 </template>

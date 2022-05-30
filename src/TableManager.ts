@@ -13,7 +13,8 @@ export default class TableManager {
         var args = {
             query: "insert into monitored_objects( object_view_id, object_data ) values ( '" + object_id + "', '' )",
             trigger: nextFunction,  
-            thisObject: this }
+            thisObject: this,
+            data: {} };
         console.log( "running query: " + args.query );
         this.dataSource.runQuery( args ); }
 

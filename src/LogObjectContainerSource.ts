@@ -8,8 +8,8 @@
  *  class LogObjectContainerSource
  */
 import jQuery from "jquery";
-import { LogObjectContainer } from "./LogObjectContainer";
 import DataSource from './DataSource';
+import { LogObjectContainer } from "./LogObjectContainer";
 import { LogObjectProcessor } from "./LogObjectProcessor";
 
 export class LogObjectContainerSource {
@@ -42,6 +42,25 @@ export class LogObjectContainerSource {
             result.thisObject.logObjectContainer.addLog( logObject ); }
         result.thisObject.logObjectProcessor.updateQue();
         result.thisObject.logObjectProcessor.processLogObjects();
-        // console.log( "done consuming data..." );
+        console.log( "done consuming data..." );
+    }
+
+    refreshFromFile( file_path: string ) {
+        fetch( file_path )
+        .then(response => response.text())
+        .then(text => {
+            text = text.replaceAll( '\r', '' );
+            const file_array = text.split("\n");
+            const log_objects = [];
+            for (const line of file_array) {
+                if( line.length > 0 ){
+                    log_objects.push( JSON.parse( line ));
+                } else { console.log( "*** WARNING: empty line in log source file. ***" ); }}
+            for ( const logObject of log_objects ) {
+                this.logObjectContainer.addLog( logObject ); }
+            this.logObjectProcessor.updateQue();
+            this.logObjectProcessor.processLogObjects();
+            console.log( "done consuming data from file." );
+        });
     }
 }

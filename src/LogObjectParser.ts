@@ -1,15 +1,14 @@
 /*
  *  class LogObjectParser
  */
-import type LogObject from "./ILogObject";   
-
+import type { ILogObject } from "./ILogObject";   
 export default class LogObjectParser {
     constructor() { console.log( "constructing LogObjectParser" ); }
 
-    public createLogObjectFromString( logObjectString: any ): LogObject {
+    public createLogObjectFromString( logObjectString: any ): ILogObject {
         console.log( "parsing string: " + logObjectString );
         let newObject = JSON.parse( logObjectString );
-        let logObject: LogObject = {
+        let logObject: ILogObject = {
             id:        "", 
             timestamp: 0,
             message:   "",
