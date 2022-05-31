@@ -44,7 +44,7 @@ export default defineComponent({
   background: black;
   color: white;
   border: solid 0.1px;
-  height: 300px;
+  height: 700px;
   overflow: auto;
   z-index: 10;
   text-align: left;

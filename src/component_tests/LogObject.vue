@@ -6,7 +6,7 @@
                 {{ log_object?.method }}
             </div>
             <div>
-                {{ log_object?.id }}
+                {{ new Date( log_object?.timestamp ).toLocaleString() }}
             </div>
             <div>
                 {{ log_object?.message }}

@@ -43,8 +43,9 @@ export default defineComponent({
     methods: {
         startTest() {
             setInterval( () => {
-                this.logObjectContainerSource.refresh( "MessageManager_1523" );
+                // this.logObjectContainerSource.refresh( "MessageManager_1523" );
                 // this.logObjectProcessor.processLogObjects();
+                this.logObjectContainerSource.refreshFromFile( "test.txt" );
                 this.logs = this.logObjectContainerSource.logObjectProcessor.getWrittenLogs();
                 if ( this.log_count != this.logs.length ) {
                     jQuery( "#tester_1_log_viewer" ).animate(

@@ -1,0 +1,2 @@
+{"timestamp":1654012313000,"id":"MessageManager_27771_1654012313000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654012313000,"id":"MessageManager_27772_1654012313000","message":"loop game done.","method":"GameObject::loopGame"}
