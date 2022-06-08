@@ -33,7 +33,7 @@ export default defineComponent({
                 setTimeout(() => {
                     jQuery( "#" + this.object_name + "_log_viewer" ).animate(
                         { scrollTop: jQuery( "#" + this.object_name + "_log_viewer" ).prop( "scrollHeight" )},
-                        1000 );
+                        250 );
                 }, 100 );    
             }}}    
 });

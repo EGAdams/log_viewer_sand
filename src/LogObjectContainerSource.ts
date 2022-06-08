@@ -42,7 +42,6 @@ export class LogObjectContainerSource {
             result.thisObject.logObjectContainer.addLog( logObject ); }
         result.thisObject.logObjectProcessor.updateQue();
         result.thisObject.logObjectProcessor.processLogObjects();
-        console.log( "done consuming data..." );
     }
 
     refreshFromFile( file_path: string ) {
@@ -53,14 +52,19 @@ export class LogObjectContainerSource {
             const file_array = text.split("\n");
             const log_objects = [];
             for (const line of file_array) {
+                let parsed_line = "";
                 if( line.length > 0 ){
-                    log_objects.push( JSON.parse( line ));
-                } else { console.log( "*** WARNING: empty line in log source file. ***" ); }}
+                    try {
+                        parsed_line = JSON.parse( line );
+                    } catch( error ) {
+                        console.error( "error parsing line: " + line );
+                    }
+                    log_objects.push( parsed_line );
+                }}
             for ( const logObject of log_objects ) {
                 this.logObjectContainer.addLog( logObject ); }
             this.logObjectProcessor.updateQue();
             this.logObjectProcessor.processLogObjects();
-            console.log( "done consuming data from file." );
         });
     }
 }

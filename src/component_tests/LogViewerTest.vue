@@ -50,10 +50,10 @@ export default defineComponent({
                 if ( this.log_count != this.logs.length ) {
                     jQuery( "#tester_1_log_viewer" ).animate(
                             { scrollTop: jQuery( "#tester_1_log_viewer" ).prop( "scrollHeight" ) * 2 },
-                            500 );
+                            150 );
                     this.log_count = this.logs.length;
                 }
-            }, 1000 );
+            }, 250 );
         },
     },
     mounted() {

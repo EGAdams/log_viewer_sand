@@ -1,2 +1,554 @@
-{"timestamp":1654012313000,"id":"MessageManager_27771_1654012313000","message":"starting loop game...","method":"GameObject::loopGame"}
-{"timestamp":1654012313000,"id":"MessageManager_27772_1654012313000","message":"loop game done.","method":"GameObject::loopGame"}
+{"timestamp":1654723693000,"id":"MessageManager_24311_1654723693000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724153000,"id":"MessageManager_25813_1654724153000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724457000,"id":"MessageManager_26806_1654724457000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724558000,"id":"MessageManager_27136_1654724558000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724640000,"id":"MessageManager_27403_1654724640000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724640000,"id":"MessageManager_27404_1654724640000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654724640000,"id":"MessageManager_27403_1654724640000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654724641000,"id":"MessageManager_27407_1654724641000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654724642000,"id":"MessageManager_27410_1654724642000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654724642000,"id":"MessageManager_27410_1654724642000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654724646000,"id":"MessageManager_27423_1654724646000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724646000,"id":"MessageManager_27424_1654724646000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654724647000,"id":"MessageManager_27425_1654724647000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654724647000,"id":"MessageManager_27426_1654724647000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724647000,"id":"MessageManager_27427_1654724647000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654724647000,"id":"MessageManager_27428_1654724647000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654724959000,"id":"MessageManager_28445_1654724959000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724959000,"id":"MessageManager_28446_1654724959000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654724959000,"id":"MessageManager_28445_1654724959000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654724959000,"id":"MessageManager_28446_1654724959000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654724960000,"id":"MessageManager_28447_1654724960000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654724960000,"id":"MessageManager_28448_1654724960000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654724961000,"id":"MessageManager_28452_1654724961000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724961000,"id":"MessageManager_28453_1654724961000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654724962000,"id":"MessageManager_28455_1654724962000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654724962000,"id":"MessageManager_28456_1654724962000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654724962000,"id":"MessageManager_28457_1654724962000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654724962000,"id":"MessageManager_28458_1654724962000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725001000,"id":"MessageManager_28582_1654725001000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725001000,"id":"MessageManager_28583_1654725001000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725001000,"id":"MessageManager_28582_1654725001000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654725002000,"id":"MessageManager_28583_1654725002000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654725002000,"id":"MessageManager_28585_1654725002000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654725002000,"id":"MessageManager_28585_1654725002000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725004000,"id":"MessageManager_28592_1654725004000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725004000,"id":"MessageManager_28593_1654725004000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725005000,"id":"MessageManager_28595_1654725005000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725005000,"id":"MessageManager_28596_1654725005000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725005000,"id":"MessageManager_28597_1654725005000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725005000,"id":"MessageManager_28598_1654725005000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725006000,"id":"MessageManager_28599_1654725006000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725006000,"id":"MessageManager_28600_1654725006000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725007000,"id":"MessageManager_28602_1654725007000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725007000,"id":"MessageManager_28603_1654725007000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725007000,"id":"MessageManager_28604_1654725007000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725007000,"id":"MessageManager_28605_1654725007000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725008000,"id":"MessageManager_28606_1654725008000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725008000,"id":"MessageManager_28607_1654725008000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725009000,"id":"MessageManager_28608_1654725009000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725009000,"id":"MessageManager_28609_1654725009000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725009000,"id":"MessageManager_28610_1654725009000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725009000,"id":"MessageManager_28611_1654725009000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725010000,"id":"MessageManager_28612_1654725010000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725010000,"id":"MessageManager_28613_1654725010000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725014000,"id":"MessageManager_28625_1654725014000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725014000,"id":"MessageManager_28626_1654725014000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725014000,"id":"MessageManager_28627_1654725014000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725014000,"id":"MessageManager_28628_1654725014000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725014000,"id":"MessageManager_28629_1654725014000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725014000,"id":"MessageManager_28630_1654725014000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725015000,"id":"MessageManager_28631_1654725015000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725015000,"id":"MessageManager_28632_1654725015000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725015000,"id":"MessageManager_28633_1654725015000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725015000,"id":"MessageManager_28634_1654725015000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725015000,"id":"MessageManager_28635_1654725015000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725016000,"id":"MessageManager_28636_1654725016000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725016000,"id":"MessageManager_28637_1654725016000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725016000,"id":"MessageManager_28638_1654725016000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725016000,"id":"MessageManager_28639_1654725016000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725016000,"id":"MessageManager_28640_1654725016000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725017000,"id":"MessageManager_28641_1654725017000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725017000,"id":"MessageManager_28642_1654725017000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725017000,"id":"MessageManager_28643_1654725017000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725017000,"id":"MessageManager_28644_1654725017000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725017000,"id":"MessageManager_28645_1654725017000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725018000,"id":"MessageManager_28646_1654725018000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725018000,"id":"MessageManager_28647_1654725018000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725018000,"id":"MessageManager_28648_1654725018000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725021000,"id":"MessageManager_28649_1654725021000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725021000,"id":"MessageManager_28650_1654725021000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725022000,"id":"MessageManager_28651_1654725022000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725022000,"id":"MessageManager_28652_1654725022000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725022000,"id":"MessageManager_28653_1654725022000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725022000,"id":"MessageManager_28654_1654725022000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725022000,"id":"MessageManager_28655_1654725022000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725023000,"id":"MessageManager_28656_1654725023000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725023000,"id":"MessageManager_28657_1654725023000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725023000,"id":"MessageManager_28658_1654725023000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725023000,"id":"MessageManager_28659_1654725023000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725023000,"id":"MessageManager_28660_1654725023000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725024000,"id":"MessageManager_28661_1654725024000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725024000,"id":"MessageManager_28662_1654725024000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725024000,"id":"MessageManager_28663_1654725024000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725024000,"id":"MessageManager_28664_1654725024000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725024000,"id":"MessageManager_28665_1654725024000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725024000,"id":"MessageManager_28666_1654725024000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725025000,"id":"MessageManager_28667_1654725025000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725025000,"id":"MessageManager_28668_1654725025000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725025000,"id":"MessageManager_28669_1654725025000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725025000,"id":"MessageManager_28670_1654725025000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725025000,"id":"MessageManager_28671_1654725025000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725025000,"id":"MessageManager_28672_1654725025000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725029000,"id":"MessageManager_28674_1654725029000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725029000,"id":"MessageManager_28675_1654725029000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725029000,"id":"MessageManager_28676_1654725029000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725029000,"id":"MessageManager_28677_1654725029000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725029000,"id":"MessageManager_28678_1654725029000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725029000,"id":"MessageManager_28679_1654725029000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725030000,"id":"MessageManager_28680_1654725030000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725030000,"id":"MessageManager_28681_1654725030000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725030000,"id":"MessageManager_28682_1654725030000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725030000,"id":"MessageManager_28683_1654725030000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725030000,"id":"MessageManager_28684_1654725030000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725030000,"id":"MessageManager_28685_1654725030000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725031000,"id":"MessageManager_28686_1654725031000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725031000,"id":"MessageManager_28687_1654725031000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725031000,"id":"MessageManager_28688_1654725031000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725031000,"id":"MessageManager_28689_1654725031000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725032000,"id":"MessageManager_28690_1654725032000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725032000,"id":"MessageManager_28691_1654725032000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725033000,"id":"MessageManager_28692_1654725033000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725033000,"id":"MessageManager_28693_1654725033000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725033000,"id":"MessageManager_28694_1654725033000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725033000,"id":"MessageManager_28695_1654725033000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725033000,"id":"MessageManager_28696_1654725033000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725033000,"id":"MessageManager_28697_1654725033000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725034000,"id":"MessageManager_28698_1654725034000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725034000,"id":"MessageManager_28699_1654725034000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725034000,"id":"MessageManager_28700_1654725034000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725034000,"id":"MessageManager_28701_1654725034000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725034000,"id":"MessageManager_28702_1654725034000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725035000,"id":"MessageManager_28703_1654725035000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725035000,"id":"MessageManager_28704_1654725035000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725035000,"id":"MessageManager_28705_1654725035000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725035000,"id":"MessageManager_28706_1654725035000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725035000,"id":"MessageManager_28707_1654725035000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725036000,"id":"MessageManager_28708_1654725036000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725036000,"id":"MessageManager_28709_1654725036000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725039000,"id":"MessageManager_28710_1654725039000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725039000,"id":"MessageManager_28711_1654725039000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725039000,"id":"MessageManager_28712_1654725039000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725040000,"id":"MessageManager_28713_1654725040000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725040000,"id":"MessageManager_28714_1654725040000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725040000,"id":"MessageManager_28715_1654725040000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725040000,"id":"MessageManager_28716_1654725040000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725040000,"id":"MessageManager_28717_1654725040000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725041000,"id":"MessageManager_28718_1654725041000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725041000,"id":"MessageManager_28719_1654725041000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725155000,"id":"MessageManager_29085_1654725155000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725155000,"id":"MessageManager_29086_1654725155000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725155000,"id":"MessageManager_29085_1654725155000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725155000,"id":"MessageManager_29085_1654725155000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725155000,"id":"MessageManager_29087_1654725155000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725156000,"id":"MessageManager_29088_1654725156000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725156000,"id":"MessageManager_29089_1654725156000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725156000,"id":"MessageManager_29090_1654725156000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725156000,"id":"MessageManager_29091_1654725156000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725157000,"id":"MessageManager_29092_1654725157000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725157000,"id":"MessageManager_29092_1654725157000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725157000,"id":"MessageManager_29092_1654725157000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725157000,"id":"MessageManager_29093_1654725157000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725157000,"id":"MessageManager_29094_1654725157000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725157000,"id":"MessageManager_29095_1654725157000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725158000,"id":"MessageManager_29096_1654725158000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725158000,"id":"MessageManager_29097_1654725158000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725158000,"id":"MessageManager_29098_1654725158000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725158000,"id":"MessageManager_29095_1654725158000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725158000,"id":"MessageManager_29095_1654725158000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725159000,"id":"MessageManager_29099_1654725159000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725159000,"id":"MessageManager_29100_1654725159000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725159000,"id":"MessageManager_29101_1654725159000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725159000,"id":"MessageManager_29102_1654725159000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725159000,"id":"MessageManager_29103_1654725159000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725159000,"id":"MessageManager_29104_1654725159000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725160000,"id":"MessageManager_29101_1654725160000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725160000,"id":"MessageManager_29101_1654725160000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725160000,"id":"MessageManager_29105_1654725160000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725160000,"id":"MessageManager_29106_1654725160000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725160000,"id":"MessageManager_29107_1654725160000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725160000,"id":"MessageManager_29108_1654725160000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725160000,"id":"MessageManager_29109_1654725160000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725160000,"id":"MessageManager_29110_1654725160000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725161000,"id":"MessageManager_29105_1654725161000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725161000,"id":"MessageManager_29105_1654725161000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725161000,"id":"MessageManager_29111_1654725161000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725161000,"id":"MessageManager_29112_1654725161000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725161000,"id":"MessageManager_29113_1654725161000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725162000,"id":"MessageManager_29114_1654725162000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725162000,"id":"MessageManager_29115_1654725162000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725162000,"id":"MessageManager_29116_1654725162000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725162000,"id":"MessageManager_29108_1654725162000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725162000,"id":"MessageManager_29108_1654725162000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725162000,"id":"MessageManager_29117_1654725162000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725162000,"id":"MessageManager_29118_1654725162000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725163000,"id":"MessageManager_29119_1654725163000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725163000,"id":"MessageManager_29120_1654725163000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725163000,"id":"MessageManager_29121_1654725163000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725163000,"id":"MessageManager_29122_1654725163000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725163000,"id":"MessageManager_29111_1654725163000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725163000,"id":"MessageManager_29111_1654725163000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725164000,"id":"MessageManager_29123_1654725164000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725164000,"id":"MessageManager_29124_1654725164000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725164000,"id":"MessageManager_29125_1654725164000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725164000,"id":"MessageManager_29126_1654725164000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725164000,"id":"MessageManager_29127_1654725164000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725164000,"id":"MessageManager_29128_1654725164000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725165000,"id":"MessageManager_29115_1654725165000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725165000,"id":"MessageManager_29118_1654725165000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725165000,"id":"MessageManager_29129_1654725165000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725165000,"id":"MessageManager_29130_1654725165000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725165000,"id":"MessageManager_29131_1654725165000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725165000,"id":"MessageManager_29132_1654725165000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725165000,"id":"MessageManager_29133_1654725165000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725165000,"id":"MessageManager_29134_1654725165000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725166000,"id":"MessageManager_29121_1654725166000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725166000,"id":"MessageManager_29121_1654725166000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725166000,"id":"MessageManager_29135_1654725166000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725166000,"id":"MessageManager_29136_1654725166000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725166000,"id":"MessageManager_29137_1654725166000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725166000,"id":"MessageManager_29138_1654725166000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725167000,"id":"MessageManager_29139_1654725167000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725167000,"id":"MessageManager_29140_1654725167000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725167000,"id":"MessageManager_29124_1654725167000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725167000,"id":"MessageManager_29124_1654725167000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725167000,"id":"MessageManager_29141_1654725167000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725167000,"id":"MessageManager_29142_1654725167000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725168000,"id":"MessageManager_29143_1654725168000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725168000,"id":"MessageManager_29144_1654725168000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725168000,"id":"MessageManager_29145_1654725168000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725168000,"id":"MessageManager_29146_1654725168000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725168000,"id":"MessageManager_29128_1654725168000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725168000,"id":"MessageManager_29128_1654725168000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725169000,"id":"MessageManager_29147_1654725169000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725169000,"id":"MessageManager_29148_1654725169000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725169000,"id":"MessageManager_29149_1654725169000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725169000,"id":"MessageManager_29150_1654725169000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725169000,"id":"MessageManager_29151_1654725169000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725169000,"id":"MessageManager_29152_1654725169000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725169000,"id":"MessageManager_29131_1654725169000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725170000,"id":"MessageManager_29131_1654725170000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725170000,"id":"MessageManager_29153_1654725170000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725170000,"id":"MessageManager_29154_1654725170000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725170000,"id":"MessageManager_29155_1654725170000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725170000,"id":"MessageManager_29156_1654725170000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725170000,"id":"MessageManager_29157_1654725170000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725170000,"id":"MessageManager_29158_1654725170000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725171000,"id":"MessageManager_29137_1654725171000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725171000,"id":"MessageManager_29137_1654725171000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725171000,"id":"MessageManager_29159_1654725171000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725171000,"id":"MessageManager_29160_1654725171000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725171000,"id":"MessageManager_29161_1654725171000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725171000,"id":"MessageManager_29162_1654725171000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725172000,"id":"MessageManager_29163_1654725172000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725172000,"id":"MessageManager_29164_1654725172000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725172000,"id":"MessageManager_29141_1654725172000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725172000,"id":"MessageManager_29141_1654725172000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725172000,"id":"MessageManager_29165_1654725172000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725172000,"id":"MessageManager_29166_1654725172000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725173000,"id":"MessageManager_29167_1654725173000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725173000,"id":"MessageManager_29168_1654725173000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725173000,"id":"MessageManager_29169_1654725173000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725173000,"id":"MessageManager_29170_1654725173000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725173000,"id":"MessageManager_29144_1654725173000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725173000,"id":"MessageManager_29144_1654725173000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725174000,"id":"MessageManager_29171_1654725174000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725174000,"id":"MessageManager_29172_1654725174000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725174000,"id":"MessageManager_29173_1654725174000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725174000,"id":"MessageManager_29174_1654725174000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725174000,"id":"MessageManager_29175_1654725174000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725174000,"id":"MessageManager_29176_1654725174000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725175000,"id":"MessageManager_29147_1654725175000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725175000,"id":"MessageManager_29150_1654725175000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725175000,"id":"MessageManager_29177_1654725175000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725175000,"id":"MessageManager_29178_1654725175000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725175000,"id":"MessageManager_29179_1654725175000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725175000,"id":"MessageManager_29180_1654725175000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725405000,"id":"MessageManager_29902_1654725405000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725405000,"id":"MessageManager_29903_1654725405000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725405000,"id":"MessageManager_29902_1654725405000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654725405000,"id":"MessageManager_29903_1654725405000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654725405000,"id":"MessageManager_29904_1654725405000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654725406000,"id":"MessageManager_29905_1654725406000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725420000,"id":"MessageManager_29950_1654725420000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725420000,"id":"MessageManager_29951_1654725420000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725421000,"id":"MessageManager_29954_1654725421000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725421000,"id":"MessageManager_29955_1654725421000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725421000,"id":"MessageManager_29956_1654725421000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725421000,"id":"MessageManager_29957_1654725421000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725422000,"id":"MessageManager_29958_1654725422000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725422000,"id":"MessageManager_29959_1654725422000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725422000,"id":"MessageManager_29960_1654725422000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725423000,"id":"MessageManager_29961_1654725423000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725423000,"id":"MessageManager_29962_1654725423000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725423000,"id":"MessageManager_29963_1654725423000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725423000,"id":"MessageManager_29964_1654725423000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725423000,"id":"MessageManager_29965_1654725423000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725423000,"id":"MessageManager_29966_1654725423000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725424000,"id":"MessageManager_29967_1654725424000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725424000,"id":"MessageManager_29968_1654725424000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725424000,"id":"MessageManager_29969_1654725424000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725499000,"id":"MessageManager_30208_1654725499000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725499000,"id":"MessageManager_30209_1654725499000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725499000,"id":"MessageManager_30208_1654725499000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654725500000,"id":"MessageManager_30212_1654725500000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654725500000,"id":"MessageManager_30213_1654725500000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654725500000,"id":"MessageManager_30212_1654725500000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725503000,"id":"MessageManager_30222_1654725503000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725504000,"id":"MessageManager_30223_1654725504000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725504000,"id":"MessageManager_30225_1654725504000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725504000,"id":"MessageManager_30226_1654725504000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725504000,"id":"MessageManager_30227_1654725504000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725504000,"id":"MessageManager_30228_1654725504000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725908000,"id":"MessageManager_31544_1654725908000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725908000,"id":"MessageManager_31545_1654725908000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725908000,"id":"MessageManager_31544_1654725908000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654725908000,"id":"MessageManager_31545_1654725908000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654725909000,"id":"MessageManager_31547_1654725909000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654725909000,"id":"MessageManager_31547_1654725909000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725929000,"id":"MessageManager_31613_1654725929000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725930000,"id":"MessageManager_31614_1654725930000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725930000,"id":"MessageManager_31616_1654725930000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654725930000,"id":"MessageManager_31617_1654725930000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654725930000,"id":"MessageManager_31618_1654725930000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654725930000,"id":"MessageManager_31616_1654725930000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725932000,"id":"MessageManager_31622_1654725932000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725932000,"id":"MessageManager_31623_1654725932000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725933000,"id":"MessageManager_31626_1654725933000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725933000,"id":"MessageManager_31627_1654725933000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725933000,"id":"MessageManager_31628_1654725933000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725933000,"id":"MessageManager_31629_1654725933000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725935000,"id":"MessageManager_31632_1654725935000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725935000,"id":"MessageManager_31633_1654725935000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725936000,"id":"MessageManager_31636_1654725936000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725936000,"id":"MessageManager_31637_1654725936000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725936000,"id":"MessageManager_31638_1654725936000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725936000,"id":"MessageManager_31639_1654725936000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725936000,"id":"MessageManager_31640_1654725936000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725936000,"id":"MessageManager_31641_1654725936000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725937000,"id":"MessageManager_31642_1654725937000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725937000,"id":"MessageManager_31643_1654725937000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725937000,"id":"MessageManager_31644_1654725937000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725937000,"id":"MessageManager_31645_1654725937000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725937000,"id":"MessageManager_31646_1654725937000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725938000,"id":"MessageManager_31647_1654725938000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725938000,"id":"MessageManager_31648_1654725938000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725938000,"id":"MessageManager_31649_1654725938000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725938000,"id":"MessageManager_31650_1654725938000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725938000,"id":"MessageManager_31651_1654725938000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725939000,"id":"MessageManager_31652_1654725939000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725939000,"id":"MessageManager_31653_1654725939000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725940000,"id":"MessageManager_31645_1654725940000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725940000,"id":"MessageManager_31649_1654725940000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725940000,"id":"MessageManager_31654_1654725940000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725940000,"id":"MessageManager_31655_1654725940000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725940000,"id":"MessageManager_31656_1654725940000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725940000,"id":"MessageManager_31657_1654725940000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725940000,"id":"MessageManager_31658_1654725940000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725940000,"id":"MessageManager_31659_1654725940000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725941000,"id":"MessageManager_31652_1654725941000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654725941000,"id":"MessageManager_31652_1654725941000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654725941000,"id":"MessageManager_31660_1654725941000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654725941000,"id":"MessageManager_31661_1654725941000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654725941000,"id":"MessageManager_31662_1654725941000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654725941000,"id":"MessageManager_31663_1654725941000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726161000,"id":"MessageManager_32370_1654726161000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726161000,"id":"MessageManager_32371_1654726161000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726161000,"id":"MessageManager_32370_1654726161000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654726161000,"id":"MessageManager_32371_1654726161000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654726162000,"id":"MessageManager_32374_1654726162000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654726162000,"id":"MessageManager_32374_1654726162000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726327000,"id":"MessageManager_144_1654726327000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726327000,"id":"MessageManager_145_1654726327000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726327000,"id":"MessageManager_144_1654726327000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654726328000,"id":"MessageManager_145_1654726328000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654726328000,"id":"MessageManager_148_1654726328000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654726328000,"id":"MessageManager_148_1654726328000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726365000,"id":"MessageManager_268_1654726365000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726365000,"id":"MessageManager_269_1654726365000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726365000,"id":"MessageManager_268_1654726365000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
+{"timestamp":1654726365000,"id":"MessageManager_269_1654726365000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
+{"timestamp":1654726365000,"id":"MessageManager_270_1654726365000","message":"done resetting game.","method":"Reset::resetScoreboard"}
+{"timestamp":1654726366000,"id":"MessageManager_272_1654726366000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726417000,"id":"MessageManager_438_1654726417000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726417000,"id":"MessageManager_439_1654726417000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726417000,"id":"MessageManager_440_1654726417000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726417000,"id":"MessageManager_441_1654726417000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726417000,"id":"MessageManager_442_1654726417000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726418000,"id":"MessageManager_443_1654726418000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726419000,"id":"MessageManager_445_1654726419000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726419000,"id":"MessageManager_446_1654726419000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726419000,"id":"MessageManager_447_1654726419000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726419000,"id":"MessageManager_448_1654726419000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726420000,"id":"MessageManager_449_1654726420000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726420000,"id":"MessageManager_450_1654726420000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726420000,"id":"MessageManager_451_1654726420000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726420000,"id":"MessageManager_452_1654726420000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726421000,"id":"MessageManager_453_1654726421000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726421000,"id":"MessageManager_454_1654726421000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726421000,"id":"MessageManager_455_1654726421000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726421000,"id":"MessageManager_456_1654726421000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726424000,"id":"MessageManager_461_1654726424000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726424000,"id":"MessageManager_462_1654726424000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726425000,"id":"MessageManager_464_1654726425000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726425000,"id":"MessageManager_465_1654726425000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726425000,"id":"MessageManager_466_1654726425000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726425000,"id":"MessageManager_467_1654726425000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726425000,"id":"MessageManager_468_1654726425000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726426000,"id":"MessageManager_469_1654726426000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726426000,"id":"MessageManager_470_1654726426000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726426000,"id":"MessageManager_471_1654726426000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726426000,"id":"MessageManager_472_1654726426000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726426000,"id":"MessageManager_473_1654726426000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726427000,"id":"MessageManager_474_1654726427000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726427000,"id":"MessageManager_475_1654726427000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726427000,"id":"MessageManager_476_1654726427000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726427000,"id":"MessageManager_477_1654726427000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726427000,"id":"MessageManager_478_1654726427000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726428000,"id":"MessageManager_479_1654726428000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726428000,"id":"MessageManager_480_1654726428000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726428000,"id":"MessageManager_481_1654726428000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726428000,"id":"MessageManager_482_1654726428000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726428000,"id":"MessageManager_483_1654726428000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726429000,"id":"MessageManager_484_1654726429000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726429000,"id":"MessageManager_485_1654726429000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726430000,"id":"MessageManager_486_1654726430000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726430000,"id":"MessageManager_487_1654726430000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726434000,"id":"MessageManager_491_1654726434000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726434000,"id":"MessageManager_494_1654726434000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726434000,"id":"MessageManager_495_1654726434000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726434000,"id":"MessageManager_496_1654726434000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726434000,"id":"MessageManager_497_1654726434000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726434000,"id":"MessageManager_498_1654726434000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726435000,"id":"MessageManager_494_1654726435000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726435000,"id":"MessageManager_497_1654726435000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726435000,"id":"MessageManager_499_1654726435000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726435000,"id":"MessageManager_500_1654726435000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726435000,"id":"MessageManager_501_1654726435000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726435000,"id":"MessageManager_502_1654726435000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726435000,"id":"MessageManager_503_1654726435000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726435000,"id":"MessageManager_504_1654726435000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726436000,"id":"MessageManager_500_1654726436000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726436000,"id":"MessageManager_500_1654726436000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726436000,"id":"MessageManager_505_1654726436000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726436000,"id":"MessageManager_506_1654726436000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726436000,"id":"MessageManager_507_1654726436000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726436000,"id":"MessageManager_508_1654726436000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726437000,"id":"MessageManager_509_1654726437000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726437000,"id":"MessageManager_510_1654726437000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726437000,"id":"MessageManager_504_1654726437000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726437000,"id":"MessageManager_504_1654726437000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726437000,"id":"MessageManager_511_1654726437000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726437000,"id":"MessageManager_512_1654726437000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726438000,"id":"MessageManager_513_1654726438000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726438000,"id":"MessageManager_514_1654726438000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726438000,"id":"MessageManager_515_1654726438000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726438000,"id":"MessageManager_516_1654726438000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726438000,"id":"MessageManager_507_1654726438000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726438000,"id":"MessageManager_507_1654726438000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726439000,"id":"MessageManager_517_1654726439000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726439000,"id":"MessageManager_518_1654726439000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726439000,"id":"MessageManager_519_1654726439000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726439000,"id":"MessageManager_520_1654726439000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726439000,"id":"MessageManager_521_1654726439000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726439000,"id":"MessageManager_522_1654726439000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726439000,"id":"MessageManager_510_1654726439000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726440000,"id":"MessageManager_513_1654726440000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726440000,"id":"MessageManager_523_1654726440000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726440000,"id":"MessageManager_524_1654726440000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726440000,"id":"MessageManager_525_1654726440000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726440000,"id":"MessageManager_526_1654726440000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726440000,"id":"MessageManager_527_1654726440000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726440000,"id":"MessageManager_528_1654726440000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726441000,"id":"MessageManager_517_1654726441000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726441000,"id":"MessageManager_517_1654726441000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726441000,"id":"MessageManager_529_1654726441000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726441000,"id":"MessageManager_530_1654726441000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726441000,"id":"MessageManager_531_1654726441000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726441000,"id":"MessageManager_532_1654726441000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726442000,"id":"MessageManager_533_1654726442000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726442000,"id":"MessageManager_534_1654726442000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726442000,"id":"MessageManager_520_1654726442000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726442000,"id":"MessageManager_520_1654726442000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726442000,"id":"MessageManager_535_1654726442000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726442000,"id":"MessageManager_536_1654726442000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726442000,"id":"MessageManager_537_1654726442000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726443000,"id":"MessageManager_538_1654726443000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726443000,"id":"MessageManager_539_1654726443000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726443000,"id":"MessageManager_540_1654726443000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726443000,"id":"MessageManager_523_1654726443000","message":"inside history pop...","method":"History::pop"}
+{"timestamp":1654726443000,"id":"MessageManager_523_1654726443000","message":"updating leds...","method":"Undo::mode1Undo"}
+{"timestamp":1654726444000,"id":"MessageManager_541_1654726444000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726444000,"id":"MessageManager_542_1654726444000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726444000,"id":"MessageManager_543_1654726444000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726444000,"id":"MessageManager_544_1654726444000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726444000,"id":"MessageManager_545_1654726444000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726444000,"id":"MessageManager_546_1654726444000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726444000,"id":"MessageManager_547_1654726444000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726445000,"id":"MessageManager_548_1654726445000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726445000,"id":"MessageManager_549_1654726445000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726445000,"id":"MessageManager_550_1654726445000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726445000,"id":"MessageManager_551_1654726445000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726445000,"id":"MessageManager_552_1654726445000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726445000,"id":"MessageManager_553_1654726445000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726446000,"id":"MessageManager_554_1654726446000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726446000,"id":"MessageManager_555_1654726446000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726446000,"id":"MessageManager_556_1654726446000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726446000,"id":"MessageManager_557_1654726446000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726446000,"id":"MessageManager_558_1654726446000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726446000,"id":"MessageManager_559_1654726446000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726447000,"id":"MessageManager_560_1654726447000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726447000,"id":"MessageManager_561_1654726447000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726447000,"id":"MessageManager_562_1654726447000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726447000,"id":"MessageManager_563_1654726447000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726447000,"id":"MessageManager_564_1654726447000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726447000,"id":"MessageManager_565_1654726447000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654726448000,"id":"MessageManager_566_1654726448000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654726448000,"id":"MessageManager_567_1654726448000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654726448000,"id":"MessageManager_568_1654726448000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727149000,"id":"MessageManager_2829_1654727149000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727149000,"id":"MessageManager_2830_1654727149000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727149000,"id":"MessageManager_2831_1654727149000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727149000,"id":"MessageManager_2832_1654727149000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727150000,"id":"MessageManager_2833_1654727150000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727150000,"id":"MessageManager_2834_1654727150000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727150000,"id":"MessageManager_2835_1654727150000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727150000,"id":"MessageManager_2836_1654727150000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727150000,"id":"MessageManager_2837_1654727150000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727151000,"id":"MessageManager_2838_1654727151000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727151000,"id":"MessageManager_2839_1654727151000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727151000,"id":"MessageManager_2840_1654727151000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727151000,"id":"MessageManager_2841_1654727151000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727152000,"id":"MessageManager_2842_1654727152000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727152000,"id":"MessageManager_2843_1654727152000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727152000,"id":"MessageManager_2844_1654727152000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727152000,"id":"MessageManager_2845_1654727152000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727152000,"id":"MessageManager_2846_1654727152000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727155000,"id":"MessageManager_2848_1654727155000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727155000,"id":"MessageManager_2849_1654727155000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727156000,"id":"MessageManager_2852_1654727156000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727156000,"id":"MessageManager_2853_1654727156000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727156000,"id":"MessageManager_2854_1654727156000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727156000,"id":"MessageManager_2855_1654727156000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727156000,"id":"MessageManager_2856_1654727156000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727156000,"id":"MessageManager_2857_1654727156000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727157000,"id":"MessageManager_2858_1654727157000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727157000,"id":"MessageManager_2859_1654727157000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727157000,"id":"MessageManager_2860_1654727157000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727157000,"id":"MessageManager_2861_1654727157000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727157000,"id":"MessageManager_2862_1654727157000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727157000,"id":"MessageManager_2863_1654727157000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727158000,"id":"MessageManager_2864_1654727158000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
+{"timestamp":1654727158000,"id":"MessageManager_2865_1654727158000","message":"starting loop game...","method":"GameObject::loopGame"}
+{"timestamp":1654727158000,"id":"MessageManager_2866_1654727158000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
+{"timestamp":1654727158000,"id":"MessageManager_2867_1654727158000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}
