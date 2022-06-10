@@ -23,7 +23,6 @@ export class LogObjectProcessor  {
         this.logObjectContainer = logObjectContainerArg; }
 
     updateQue() {
-        // console.log( 'updating que...' );
         const freshData = this.logObjectContainer.getLogObjects();
         for ( const logObject in freshData ) {
             this.addLog( freshData[ logObject ]); }}
@@ -33,7 +32,6 @@ export class LogObjectProcessor  {
                 this.unwrittenLogs.push( logToAdd ); }}
 
     processLogObjects(): void {
-        // console.log( 'processing log objects...' );
         for ( const logObject in this.unwrittenLogs ) {
             this.writtenLogs.push( this.unwrittenLogs[ logObject ]); }
         this.unwrittenLogs = []; }
