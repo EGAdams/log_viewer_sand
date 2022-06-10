@@ -42,4 +42,9 @@ export class LogObjectProcessor  {
     getUnwrittenLogs(): Array< ILogObject > {
         return this.unwrittenLogs; }
 
+    clearLogs(): void {
+        this.writtenLogs = [];
+        this.unwrittenLogs = [];
+        this.logObjectContainer.clearLogs(); }
+
 }

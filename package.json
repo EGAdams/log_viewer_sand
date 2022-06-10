@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@egadams/vue3-plugin": "0.0.5",
+    "@types/node": "^17.0.41",
+    "vite-plugin-fs": "^1.0.0-beta.3",
     "vue": "^3.2.36"
   },
   "devDependencies": {

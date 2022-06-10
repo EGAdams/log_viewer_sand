@@ -1,6 +1,0 @@
-{"timestamp":1654868863000,"id":"GameObject_6855_1654868863000","message":"starting loop game...","method":"GameObject::loopGame"}
-{"timestamp":1654868863000,"id":"GameObject_6856_1654868863000","message":"done readReset().  calling set game mode... ","method":"GameObject::loopGame"}
-{"timestamp":1654868863000,"id":"Reset_6855_1654868863000","message":"resetting scoreboard...","method":"Reset::resetScoreboard"}
-{"timestamp":1654868864000,"id":"Reset_6858_1654868864000","message":"turning tie leds off... ","method":"Reset::resetScoreboard"}
-{"timestamp":1654868864000,"id":"Reset_6859_1654868864000","message":"done resetting game.","method":"Reset::resetScoreboard"}
-{"timestamp":1654868864000,"id":"GameObject_6858_1654868864000","message":"calling gameStateUpdate","method":"GameObject::loopGame"}

@@ -5,12 +5,14 @@
     v-bind:object_name="test_object_name"
     v-bind:logs="logs"></log-viewer>
   <button @click="startTest">Start Test</button>
+  <button @click="clearLog">Clear Log</button>
 </template>
 
 <script lang="ts">
 import { defineComponent, PropType } from "vue";
 import LogViewer from "./LogViewer.vue";
 import { LogObjectContainerSource } from "../../src/LogObjectContainerSource";
+import fs from 'vite-plugin-fs/browser';
 import jQuery from 'jquery';
 export default defineComponent({
     name: "LogViewerTest",
@@ -22,6 +24,7 @@ export default defineComponent({
             log_count: 0,
             test_object_name: "tester_1",
             logObjectContainerSource: new LogObjectContainerSource(),
+            read_interval: 0,
             logs: [{
                     id: "1",
                     timestamp: 100,
@@ -55,6 +58,11 @@ export default defineComponent({
                 }
             }, 250 );
         },
+        async clearLog() {
+            fs.writeFile( "test.txt", '' );
+            this.logObjectContainerSource.logObjectProcessor.clearLogs();
+            this.logs = [];
+        }
     },
     mounted() {
         console.log( "mounted." );
