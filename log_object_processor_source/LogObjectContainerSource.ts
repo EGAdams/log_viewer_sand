@@ -27,8 +27,7 @@ export class LogObjectContainerSource {
         return this.logObjectProcessor.getWrittenLogs();
     }
 
-    refresh ( object_view_id: string ) {
-        // console.log( "refreshing log object container..." );
+    refresh( object_view_id: string ) {
         jQuery( document ).on( "consumeData", this.consumeData );
         const args = {
             query: "select object_data from monitored_objects where object_view_id ='" + object_view_id + "'",
@@ -40,7 +39,10 @@ export class LogObjectContainerSource {
         this.dataSource.runQuery( args );
     }
 
-    consumeData ( _event: any, result: { thisObject: any; data: string[][]; } ) {
+    consumeData = ( _event: any, result: { thisObject: any; data: string[][]; } ) => {
+        if( result.data.length == 0 ){ 
+            this.logObjectProcessor.clearLogs();
+            return; }
         const object_data = JSON.parse( result.data[ 0 ][ 0 ] );
         const logObjects = object_data.logObjects;
         for ( const logObject of logObjects ) {
@@ -50,7 +52,7 @@ export class LogObjectContainerSource {
         result.thisObject.logObjectProcessor.processLogObjects();
     }
 
-    refreshFromFile ( file_path: string ) {
+    refreshFromFile( file_path: string ) {
         fetch( file_path )
             .then( response => response.text() )
             .then( text => {

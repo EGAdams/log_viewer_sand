@@ -1,3 +1,6 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "log_viewer_sand"
+    "liveServer.settings.multiRootWorkspaceName": "log_viewer_sand",
+    "cSpell.words": [
+        "vmodel"
+    ]
 }

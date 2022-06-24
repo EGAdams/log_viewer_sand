@@ -1,7 +1,7 @@
 {
   "name": "log_viewer_test",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -10,6 +10,8 @@
   "dependencies": {
     "@egadams/vue3-plugin": "0.0.5",
     "@types/node": "^17.0.41",
+    "log-object-processor": "^1.0.20",
+    "log-vuer": "0.0.6",
     "vite-plugin-fs": "^1.0.0-beta.3",
     "vue": "^3.2.36"
   },
